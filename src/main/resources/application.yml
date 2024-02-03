@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    password: 1234
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080
+  address: 127.0.0.1
+
+user:
+  name: "lichun"
+  age: 20
+  address: urumqi
+
+hobby:
+  - java
+  - singing
+  - drinking
+
+alicloud:
+  oss:
+    endpoint: oss-ap-southeast-2.aliyuncs.com
+    bucketName: springboot3-web-tlias
+
+#spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+

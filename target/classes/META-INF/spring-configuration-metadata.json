@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "alicloud.oss",
+      "type": "com.itheima.utils.AliCloudProperties",
+      "sourceType": "com.itheima.utils.AliCloudProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alicloud.oss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.utils.AliCloudProperties"
+    },
+    {
+      "name": "alicloud.oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.utils.AliCloudProperties"
+    }
+  ],
+  "hints": []
+}
